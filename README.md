@@ -36,12 +36,6 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-### 5. Run backend tests
-```bash
-# From inside backend/
-PYTHONPATH=. pytest tests/
-```
-
 ---
 
 ## Frontend Setup (Next.js + Redux)
@@ -61,7 +55,7 @@ npm install
 npx next dev
 ```
 
-### 4. Run frontend tests
+### 4. Run unit and integration tests
 ```bash
 npm run test
 ```
