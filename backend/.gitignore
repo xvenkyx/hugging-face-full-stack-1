@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Test cache
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs and runtime files
+*.log
+*.db
+*.sqlite3
+
+# FastAPI generated OpenAPI docs cache
+openapi.json
+
+# MyPy and Pylint
+.mypy_cache/
+.pylint.d/
+
+# IDEs
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Database migrations (if using Alembic or similar)
+alembic/versions/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
